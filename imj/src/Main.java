@@ -6,9 +6,6 @@ import org.img.UtilImagen;
 import org.img.UtilMatriz;
 import org.img.UtilProcesamiento;
 import org.img.UtilProcesamientoBinario;
-import org.img.UtilProcesamientoGris;
-import org.img.zhangsuen.IteraccionN;
-import org.img.zhangsuen.ZhangSuen;
 
 public class Main {
 
@@ -27,6 +24,7 @@ public class Main {
 		ImageJ im = new ImageJ(urls2);
 		long a = System.currentTimeMillis();
 		String url = "h0.png";
+		System.out.println(url);
 
 		int[][] m_ = UtilProcesamiento.AGris(UtilMatriz.getMatriz(im.getAlto(),
 				im.getAncho(), im.getPixeles()));

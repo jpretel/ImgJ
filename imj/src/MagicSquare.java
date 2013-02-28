@@ -14,7 +14,7 @@ public class MagicSquare {
    public static Matrix magic (int n) {
 
       double[][] M = new double[n][n];
-
+      System.out.println("HOla");
       // Odd order
 
       if ((n % 2) == 1) {
